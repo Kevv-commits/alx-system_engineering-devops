@@ -1,0 +1,1 @@
+This Readme.md file contains a description of the directory 0x00-shell_basics

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#prints current working directory
+
+realpath 0_current_working_directory

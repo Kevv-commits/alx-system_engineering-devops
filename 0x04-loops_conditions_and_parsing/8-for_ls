@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #displaying files in current directory
-# after dash
+# after the dash
 for i in *
 do
     echo "$i" | cut -d "-" -f2

@@ -1,0 +1,16 @@
+Loading /etc/emacs/site-start.d/00debian.el (source)...done
+For information about GNU Emacs and the GNU system, type C-h C-a.
+Setting up indent for shell type bash
+Indentation variables are now local.
+Indentation setup for shell type bash
+funcall-interactively: End of buffer
+next-line: End of buffer [3 times]
+previous-line: Beginning of buffer [16 times]
+Save file /root/alx-system_engineering-devops/0x07-networking_basics/5-is_the_host_on_the_network? (y, n, !, ., q, C-r, d or C-h) 
+Save file /root/alx-system_engineering-devops/0x07-networking_basics/5-is_the_host_on_the_network? (y, n, !, ., q, C-r, d or C-h) n
+save-buffers-kill-emacs: Command attempted to use minibuffer while in minibuffer
+Wrote /root/alx-system_engineering-devops/0x07-networking_basics/*Messages*
+Save file /root/alx-system_engineering-devops/0x07-networking_basics/*Messages*? (y, n, !, ., q, C-r, d or C-h) 
+Save file /root/alx-system_engineering-devops/0x07-networking_basics/*Messages*? (y, n, !, ., q, C-r, d or C-h) n
+Save file /root/alx-system_engineering-devops/0x07-networking_basics/5-is_the_host_on_the_network? (y, n, !, ., q, C-r, d or C-h) 
+Save file /root/alx-system_engineering-devops/0x07-networking_basics/5-is_the_host_on_the_network? (y, n, !, ., q, C-r, d or C-h) n

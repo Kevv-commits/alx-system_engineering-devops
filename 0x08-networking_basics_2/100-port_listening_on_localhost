@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# istens on port 98 on lh
+nc -l 98

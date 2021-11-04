@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# displays active port
-netstat -lp

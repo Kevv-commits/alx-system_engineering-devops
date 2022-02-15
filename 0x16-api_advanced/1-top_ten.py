@@ -11,7 +11,7 @@ def top_ten(subreddit):
     func queries Reddit API & prints the titles of
     the first 10 hot posts
     """
-    url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
+    url = "https://www.reddit.com/r/{}/hot.json?limit=10".format(subreddit)
     response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'},
                             allow_redirects=False)
     if response.status_code == 200:

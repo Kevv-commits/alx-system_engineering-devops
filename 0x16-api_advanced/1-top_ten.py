@@ -12,7 +12,7 @@ def top_ten(subreddit):
     the first 10 hot posts
     """
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
-    response = requests.get(url, headers={'User-Agent': 'K_omett49'},
+    response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'},
                             allow_redirects=False)
     if response.status_code == 200:
         for i in range(10):

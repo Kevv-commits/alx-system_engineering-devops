@@ -1,5 +1,6 @@
 # Postmoterm
 
+![postmoterm debugging](https://bit.ly/3v3Upz1)
 ## Issue Summary :
 
 The outage happened from 15–02–2022 at 04 AM CT to 8 AM CT. The issue was that Apache is returning  Internal Server Error (500)  which is preventing Apache from processin a request and returning a proper response.
@@ -8,7 +9,7 @@ The outage happened from 15–02–2022 at 04 AM CT to 8 AM CT. The issue was th
 * 8:20 AM : The issue was detected.
 * 8:29 AM : After HTTP Testing, it was realized that the Apache2 web server was    unable to serve content.
 * 8:35 AM : The issue escalated to the back-end team.
-* 8:43 AM : Examine server Using **`curl -sI …`**, the website returned Internal Server Error (status code 500)with cmd
+* 8:43 AM : Examined server using **`curl -sI …`**, the website returned Internal Server Error (status code 500)with cmd
 * 8:51 AM : The error found was a typo in page file extension .phpp instead of php.
 * 8:59 AM : The error was fixed and apache restarted.
 * 9:05 AM : After running the command, the webserver worked as expected.

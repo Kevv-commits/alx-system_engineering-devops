@@ -1,5 +1,5 @@
 # User limit
- taskexec { 'change limit_1':
+exec { 'change limit_1':
   command  => 'sed -i "s/holberton file 5/holberton hard nofile 55000/g" /etc/security/limits.conf',
   provider => 'shell'
 }
